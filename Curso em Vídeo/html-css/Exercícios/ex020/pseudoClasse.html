@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
+
+
+ <!--// Se a tela tiver até 750px a imagem mostrada é a foto-p.png -->
+ <souce media="(max-width: 750px)" srcset = "imagens/foto-p.png" type="image/png">
+    <!-- Se a tela tiver até 1050px a imagem mostrada é a foto-m.png -->
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="imagem/png">
+  <!-- Agora caso a tela do navegador seja grande ele já tenta abrir a maior imagem possível -->
+   <img src="imagens/foto-g.png" alt="imagem flexível">

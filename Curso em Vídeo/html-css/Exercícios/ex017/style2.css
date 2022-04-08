@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Problemas aqui corrigir depois */
+@font-face {
+    font-family: 'BebasNeue2';
+    src: url(/fonts/BebasNeue-Regular.ttf) format('truetype');  
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    /*font-style: normal;
+    font-weight: normal;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font: normal normal 4em 'BebasNeue2', Times, monospace;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: right;
+    font: italic normal 25px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
