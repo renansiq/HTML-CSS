@@ -11,28 +11,28 @@
 </head>
 
 <body>
-    <h1 class="h1_titulo">Trabalhando com Áudio e Vídeo</h1>
-    <hr>
-    <div class="imagem" style="background-color: rgba(105, 168, 105, 0.493); margin: 100px;">
-        <picture>
-            <source media="(max-width: 750px)" srcset="imagens/montanhas-de-minas-Pequeno.jpeg" type="image/jpeg">
-            <source media="max-width: 1050px" srcset="imagens/montanhas-de-minas-Medio.jpeg">
+    <header>
+        <h1 class="h1_titulo">Trabalhando com Áudio e Vídeo</h1>
+    </header>
+    <main>
+        <div class="box-teste2">
             <abbr title="Clique para voltar a pagina 1">
-                <a href="index.html" alt="prev"><img src="imagens/montanhas-de-minas-Grande.jpeg"
-                        alt="Montanhas - tamanho grande"></a>
+                <a href="index.html" alt="prev"><img class="imagem2"
+                        src="imagens/montanhas-de-minas-Grande.jpeg" alt="Montanhas - tamanho grande"></a>
             </abbr>
-        </picture>
-        <video width="800px" height="558px" poster="../ex012/imagens/limoes-capa.png" controls>
-            <source src="../ex012/midia/meu-video.mp4" type="video/mp4">
-        </video>
-    </div>
-    <p style="margin-left: 100px; font-size: 35px;">Música agradável parar ouvir:</p>
-    <hr class="espaco">
-    <div class="audio">
-        <audio preload="metadata" controls loop>
-            <source src="midia/Spacetime Blues - Loopop.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+            <video class="imagem2" poster="../ex012/imagens/limoes-capa.png" controls>
+                <source src="../ex012/midia/meu-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer>
+        <div class="audio">
+            <p class="mensagem" >Música agradável parar ouvir:</p>
+            <audio preload="metadata" controls loop>
+                <source src="midia/Spacetime Blues - Loopop.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </footer>
 </body>
 
 </html>
